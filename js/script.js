@@ -1,15 +1,12 @@
-let i = 0;
 $('.text-danger').hide();
 $('.detail-modal-button').click(function () {
     console.log('clicked');
     $('.card-body').html(load_doc());
-    i++;
-    if (i >= 1) {
-        $('.text-danger').show();
-        setTimeout(function () {
-            $('.text-danger').hide();
-        }, 2700);
-    }
+    $('.text-danger').show();
+    setTimeout(function () {
+        $('.text-danger').hide();
+    }, 2700);
+
 });
 
 function load_doc() {
