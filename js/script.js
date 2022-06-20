@@ -6,6 +6,9 @@ $('.detail-modal-button').click(function () {
     i++;
     if (i == 1) {
         $('.text-danger').show();
+        setTimeout(function () {
+            $('.text-danger').hide();
+        }, 3000);
     }
 });
 
