@@ -4,11 +4,11 @@ $('.detail-modal-button').click(function () {
     console.log('clicked');
     $('.card-body').html(load_doc());
     i++;
-    if (i == 1) {
+    if (i >= 1) {
         $('.text-danger').show();
         setTimeout(function () {
             $('.text-danger').hide();
-        }, 3000);
+        }, 2700);
     }
 });
 
