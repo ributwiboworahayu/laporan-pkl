@@ -4,3 +4,5 @@ Tanggal Tayang :
 URL : 
 
 Penulis, Penulis. Tahun. "Judul", tautan, diakses pada tgl bln thn pukul jam.menit.
+
+pertamina.com. 2021. "Wilayah Kerja Rokan Resmi Dikelola Pertamina Hulu Rokan", https://pertamina.com/id/news-room/news-release/wilayah-kerja-rokan-resmi-dikelola-pertamina-hulu-rokan, diakses pada 20 Juni 2022 pukul 10.20
