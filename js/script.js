@@ -1,8 +1,8 @@
 $('.text-danger').hide();
-$('.detail-modal-button').click(function () {
+$('.detail-modal-button').click(async function () {
     console.log('clicked');
     $('.detail-modal-button').html(loading());
-    load_data();
+    await load_data();
     // location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/ribut-laporan-PKL.docx?raw=true&embedded=true';
     // $('.card-body').html(load_doc());
     // $('.text-danger').show();
