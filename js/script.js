@@ -20,7 +20,7 @@ function load_doc() {
 }
 
 function load_data(){
-    location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/ribut-laporan-PKL%20-%20rev1.0.docx?raw=true&embedded=true';
+    return location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/ribut-laporan-PKL%20-%20cetak%20-%20rev1.0.docx?raw=true&embedded=true';
 }
 
 function loading(){
