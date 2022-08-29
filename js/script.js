@@ -4,8 +4,8 @@ $('.detail-modal-button').click(async function () {
     $('.detail-modal-button').html(loading());
     await load_data();
     setTimeout(function () {
-        $('.detail-modal-button').html("Tampilkan Laporan");
-    }, 1000);
+        $('.detail-modal-button').html("Tampilkan");
+    }, 2700);
     // location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/ribut-laporan-PKL.docx?raw=true&embedded=true';
     // $('.card-body').html(load_doc());
     // $('.text-danger').show();
