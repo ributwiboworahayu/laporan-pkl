@@ -23,7 +23,7 @@ function load_doc() {
 }
 
 function load_data() {
-    return location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/ribut-laporan-PKL%20-%20cetak%20-%20rev1.0.pdf?raw=true&embedded=true';
+    return location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/laporan%20PKL%20-%20ribut%20wibowo%20rahayu%20-%20rev1.2.pdf?raw=true&embedded=true';
 }
 
 function loading() {
