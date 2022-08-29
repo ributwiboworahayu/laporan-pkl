@@ -3,6 +3,9 @@ $('.detail-modal-button').click(async function () {
     console.log('clicked');
     $('.detail-modal-button').html(loading());
     await load_data();
+    setTimeout(function () {
+        $('.detail-modal-button').html("Tampilkan Laporan");
+    }, 1000);
     // location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/ribut-laporan-PKL.docx?raw=true&embedded=true';
     // $('.card-body').html(load_doc());
     // $('.text-danger').show();
@@ -19,11 +22,11 @@ function load_doc() {
                     `;
 }
 
-function load_data(){
+function load_data() {
     return location.href = 'https://docs.google.com/viewer?url=https://github.com/ributwiboworahayu/laporan-pkl/blob/main/files/ribut-laporan-PKL%20-%20cetak%20-%20rev1.0.pdf?raw=true&embedded=true';
 }
 
-function loading(){
+function loading() {
     return `
     <div class="loader"></div>
     `;
